@@ -1,0 +1,1303 @@
+@media screen and (min-width: 320px) and (max-width: 360px) {
+    section#body__container header {
+        height: auto;
+    }
+    section#body__container header div#co_name {
+        width: 100%;
+    }
+    section#body__container header div#co_name a {
+        font-size: 2rem;
+    }
+    section#body__container header nav {
+        display: none;
+    }
+    section#body__container section#banner {
+        height: 455px;
+        display: block;
+    }
+    section#body__container section#banner div#banner_child_lft {
+        height: 455px;
+        width: 100%;
+        display: block;
+    }
+    section#body__container section#banner div#banner_child_lft img {
+        border-radius: 0%;
+    }
+    section#body__container section#banner div#banner_child_rgt {
+        position: absolute;
+        top: 2.2%;
+        display: flex;
+        width: 100%;
+        height: 455px;
+    }
+    section#body__container section#banner div#banner_child_rgt_child aside {
+        font-size: 1.5rem;
+        background-color: rgba(0, 0, 0, 0.493);
+        color: white;
+    }
+    section#body__container section#fac_header div#fac_header {
+        padding-bottom: 8px;
+    }
+    section#body__container section#fac_header div#fac_header hr {
+        width: 33%;
+        height: 2px;
+        margin-bottom: 0px;
+    }
+    section#body__container section#fac_header div#fac_header hr:first-child,
+    section#body__container section#fac_header div#fac_header hr:last-child {
+        width: 50%;
+    }
+    section#body__container section#fac_header div#fac_header h1 {
+        font-size: 1.5rem;
+    }
+    section#body__container section#facilities {
+        height: auto;
+        flex-direction: column;
+    }
+    section#body__container section#facilities div#facilities_child_a,
+    section#body__container section#facilities div#facilities_child_b {
+        width: 100%;
+        display: block;
+    }
+    section#body__container section#facilities div#facilities_child_a div#inner,
+    section#body__container section#facilities div#facilities_child_b div#inner {
+        height: auto;
+        width: 100%;
+    }
+    section#body__container section#facilities div#facilities_child_a div#inner div#inner_a,
+    section#body__container section#facilities div#facilities_child_b div#inner div#inner_a {
+        display: none;
+    }
+    section#body__container section#facilities div#facilities_child_a div#inner div#inner_b,
+    section#body__container section#facilities div#facilities_child_b div#inner div#inner_b {
+        height: auto;
+    }
+    section#body__container section#facilities div#facilities_child_a div#inner div#inner_b div.panel,
+    section#body__container section#facilities div#facilities_child_b div#inner div#inner_b div.panel {
+        background-color: white;
+        padding: 0 18px;
+        display: none;
+        overflow: hidden;
+        font-size: 0.8rem;
+    }
+    section#body__container section#facilities div#facilities_child_a div#inner div#inner_b h1,
+    section#body__container section#facilities div#facilities_child_b div#inner div#inner_b h1 {
+        display: none;
+    }
+    section#body__container section#facilities div#facilities_child_a div#inner div#inner_b button.accordion,
+    section#body__container section#facilities div#facilities_child_b div#inner div#inner_b button.accordion {
+        display: block;
+        background-color: transparent;
+        color: rgb(0, 0, 92);
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 1.12rem;
+        font-weight: bolder;
+        transition: 0.4s;
+    }
+    .accordion:after {
+        content: "\002B";
+        color: rgb(0, 0, 92);
+        font-weight: bold;
+        float: right;
+        margin-left: 5px;
+    }
+    .active:after {
+        content: "\2212";
+        color: rgba(0, 0, 92, 0.589);
+    }
+    section#body__container section#facilities div#facilities_child_c,
+    section#body__container section#facilities div#facilities_child_d {
+        width: 100%;
+        display: block;
+    }
+    section#body__container section#facilities div#facilities_child_c div#inner,
+    section#body__container section#facilities div#facilities_child_d div#inner {
+        height: auto;
+        width: 100%;
+    }
+    section#body__container section#facilities div#facilities_child_c div#inner div#inner_c,
+    section#body__container section#facilities div#facilities_child_d div#inner div#inner_c {
+        display: none;
+    }
+    section#body__container section#facilities div#facilities_child_c div#inner div#inner_d,
+    section#body__container section#facilities div#facilities_child_d div#inner div#inner_d {
+        height: auto;
+    }
+    section#body__container section#facilities div#facilities_child_c div#inner div#inner_d div.panel,
+    section#body__container section#facilities div#facilities_child_d div#inner div#inner_d div.panel {
+        background-color: white;
+        padding: 0 18px;
+        display: none;
+        overflow: hidden;
+        font-size: 0.8rem;
+    }
+    section#body__container section#facilities div#facilities_child_c div#inner div#inner_d h1,
+    section#body__container section#facilities div#facilities_child_d div#inner div#inner_d h1 {
+        display: none;
+    }
+    section#body__container section#facilities div#facilities_child_c div#inner div#inner_d button.accordion,
+    section#body__container section#facilities div#facilities_child_d div#inner div#inner_d button.accordion {
+        display: block;
+        background-color: transparent;
+        color: rgb(0, 0, 92);
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 1.12rem;
+        font-weight: bolder;
+        transition: 0.4s;
+    }
+    section#body__container section#reg {
+        height: auto;
+        display: block;
+    }
+    section#body__container section#reg section#reg_lft {
+        display: none;
+    }
+    section#body__container section#reg section#reg_rgt {
+        width: 100%;
+        height: auto;
+        display: block;
+        padding: 10px;
+    }
+    section#body__container section#reg_rgt div#why {
+        height: auto;
+        width: 100%;
+    }
+    section#body__container div#why h1 {
+        font-size: 1.25rem;
+    }
+    section#body__container div#why div#descx {
+        column-gap: 30px;
+        font-size: 0.83rem;
+        line-height: 23px;
+        padding: 10px 15px;
+    }
+    section#body__container section#staff_header {
+        display: none;
+    }
+    section#body__container section#staff {
+        display: none;
+    }
+    section#body__container section#prop {
+        height: auto;
+    }
+    section#body__container div#prop_header {
+        height: auto;
+        padding-bottom: 8px;
+    }
+    section#body__container div#prop_header hr {
+        width: 33%;
+        height: 2px;
+        margin-bottom: 0px;
+    }
+    section#body__container div#prop_header hr:first-child,
+    section#body__container div#prop_header hr:last-child {
+        width: 50%;
+    }
+    section#body__container div#prop_header h1 {
+        font-size: 1.5rem;
+    }
+    section#body__container div#main {
+        flex-wrap: wrap;
+        height: auto;
+        justify-content: space-between;
+    }
+    section#body__container div#main>div {
+        height: auto;
+        width: 100%;
+        margin: 10px;
+    }
+    section#body__container div#main>div>div {
+        font-size: 0.95rem;
+        padding: 0%;
+    }
+    section#body__container div#main>div::before {
+        display: none;
+    }
+    section#body__container footer {
+        padding: 0%;
+    }
+    section#body__container footer div#up {
+        display: none;
+    }
+    section#body__container footer div#down {
+        height: auto;
+        flex-direction: column;
+    }
+    section#body__container footer div#down div#address__area {
+        width: 100%;
+        padding: 0;
+    }
+    section#body__container footer div#down div#address__area address {
+        font-size: 0.7em;
+        padding: 0%;
+        font-weight: lighter;
+    }
+    section#body__container div#down div#address__area p {
+        font-size: 1em;
+    }
+    section#body__container footer div#down div#social__media {
+        width: 100%;
+        height: auto;
+        padding: 0%;
+    }
+    section#body__container footer div#down div#social__media p {
+        font-size: 1em;
+    }
+    section#body__container footer div#down div#blog__post {
+        width: 100%;
+        padding: 0%;
+    }
+    section#body__container footer div#down div#blog__post p {
+        font-size: 1.2em;
+    }
+    section#body__container footer div#down div#blog__post ul li a {
+        font-size: 1em;
+    }
+}
+
+@media screen and (min-width: 361px) and (max-width: 435px) {
+    section#body__container header {
+        height: auto;
+    }
+    section#body__container header div#co_name {
+        width: 100%;
+    }
+    section#body__container header div#co_name a {
+        font-size: 2.3rem;
+    }
+    section#body__container header nav {
+        display: none;
+    }
+    section#body__container section#banner {
+        height: 455px;
+        display: block;
+    }
+    section#body__container section#banner div#banner_child_lft {
+        height: 455px;
+        width: 100%;
+        display: block;
+    }
+    section#body__container section#banner div#banner_child_lft img {
+        border-radius: 0%;
+    }
+    section#body__container section#banner div#banner_child_rgt {
+        position: absolute;
+        top: 2.2%;
+        display: flex;
+        width: 100%;
+        height: 455px;
+    }
+    section#body__container section#banner div#banner_child_rgt_child aside {
+        font-size: 1.5rem;
+        background-color: rgba(0, 0, 0, 0.493);
+        color: white;
+    }
+    section#body__container section#fac_header div#fac_header {
+        padding-bottom: 8px;
+    }
+    section#body__container section#fac_header div#fac_header hr {
+        width: 33%;
+        height: 2px;
+        margin-bottom: 0px;
+    }
+    section#body__container section#fac_header div#fac_header hr:first-child,
+    section#body__container section#fac_header div#fac_header hr:last-child {
+        width: 50%;
+    }
+    section#body__container section#fac_header div#fac_header h1 {
+        font-size: 1.5rem;
+    }
+    section#body__container section#facilities {
+        height: auto;
+        flex-direction: column;
+    }
+    section#body__container section#facilities div#facilities_child_a,
+    section#body__container section#facilities div#facilities_child_b {
+        width: 100%;
+        display: block;
+    }
+    section#body__container section#facilities div#facilities_child_a div#inner,
+    section#body__container section#facilities div#facilities_child_b div#inner {
+        height: auto;
+        width: 100%;
+    }
+    section#body__container section#facilities div#facilities_child_a div#inner div#inner_a,
+    section#body__container section#facilities div#facilities_child_b div#inner div#inner_a {
+        display: none;
+    }
+    section#body__container section#facilities div#facilities_child_a div#inner div#inner_b,
+    section#body__container section#facilities div#facilities_child_b div#inner div#inner_b {
+        height: auto;
+    }
+    section#body__container section#facilities div#facilities_child_a div#inner div#inner_b div.panel,
+    section#body__container section#facilities div#facilities_child_b div#inner div#inner_b div.panel {
+        background-color: white;
+        padding: 0 18px;
+        display: none;
+        overflow: hidden;
+        font-size: 0.8rem;
+    }
+    section#body__container section#facilities div#facilities_child_a div#inner div#inner_b h1,
+    section#body__container section#facilities div#facilities_child_b div#inner div#inner_b h1 {
+        display: none;
+    }
+    section#body__container section#facilities div#facilities_child_a div#inner div#inner_b button.accordion,
+    section#body__container section#facilities div#facilities_child_b div#inner div#inner_b button.accordion {
+        display: block;
+        background-color: transparent;
+        color: rgb(0, 0, 92);
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 1.12rem;
+        font-weight: bolder;
+        transition: 0.4s;
+    }
+    .accordion:after {
+        content: "\002B";
+        color: rgb(0, 0, 92);
+        font-weight: bold;
+        float: right;
+        margin-left: 5px;
+    }
+    .active:after {
+        content: "\2212";
+        color: rgba(0, 0, 92, 0.589);
+    }
+    section#body__container section#facilities div#facilities_child_c,
+    section#body__container section#facilities div#facilities_child_d {
+        width: 100%;
+        display: block;
+    }
+    section#body__container section#facilities div#facilities_child_c div#inner,
+    section#body__container section#facilities div#facilities_child_d div#inner {
+        height: auto;
+        width: 100%;
+    }
+    section#body__container section#facilities div#facilities_child_c div#inner div#inner_c,
+    section#body__container section#facilities div#facilities_child_d div#inner div#inner_c {
+        display: none;
+    }
+    section#body__container section#facilities div#facilities_child_c div#inner div#inner_d,
+    section#body__container section#facilities div#facilities_child_d div#inner div#inner_d {
+        height: auto;
+    }
+    section#body__container section#facilities div#facilities_child_c div#inner div#inner_d div.panel,
+    section#body__container section#facilities div#facilities_child_d div#inner div#inner_d div.panel {
+        background-color: white;
+        padding: 0 18px;
+        display: none;
+        overflow: hidden;
+        font-size: 0.8rem;
+    }
+    section#body__container section#facilities div#facilities_child_c div#inner div#inner_d h1,
+    section#body__container section#facilities div#facilities_child_d div#inner div#inner_d h1 {
+        display: none;
+    }
+    section#body__container section#facilities div#facilities_child_c div#inner div#inner_d button.accordion,
+    section#body__container section#facilities div#facilities_child_d div#inner div#inner_d button.accordion {
+        display: block;
+        background-color: transparent;
+        color: rgb(0, 0, 92);
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 1.12rem;
+        font-weight: bolder;
+        transition: 0.4s;
+    }
+    section#body__container section#reg {
+        height: auto;
+        display: block;
+    }
+    section#body__container section#reg section#reg_lft {
+        display: none;
+    }
+    section#body__container section#reg section#reg_rgt {
+        width: 100%;
+        height: auto;
+        display: block;
+        padding: 10px;
+    }
+    section#body__container section#reg_rgt div#why {
+        height: auto;
+        width: 100%;
+    }
+    section#body__container div#why h1 {
+        font-size: 1.25rem;
+    }
+    section#body__container div#why div#descx {
+        column-gap: 30px;
+        font-size: 0.83rem;
+        line-height: 23px;
+        padding: 10px 15px;
+    }
+    section#body__container section#staff_header {
+        display: none;
+    }
+    section#body__container section#staff {
+        display: none;
+    }
+    section#body__container section#prop {
+        height: auto;
+    }
+    section#body__container div#prop_header {
+        height: auto;
+        padding-bottom: 8px;
+    }
+    section#body__container div#prop_header hr {
+        width: 33%;
+        height: 2px;
+        margin-bottom: 0px;
+    }
+    section#body__container div#prop_header hr:first-child,
+    section#body__container div#prop_header hr:last-child {
+        width: 50%;
+    }
+    section#body__container div#prop_header h1 {
+        font-size: 1.5rem;
+    }
+    section#body__container div#main {
+        flex-wrap: wrap;
+        height: auto;
+        justify-content: space-between;
+    }
+    section#body__container div#main>div {
+        height: auto;
+        width: 100%;
+        margin: 10px;
+    }
+    section#body__container div#main>div>div {
+        font-size: 0.95rem;
+        padding: 0%;
+    }
+    section#body__container div#main>div::before {
+        display: none;
+    }
+    section#body__container footer {
+        padding: 0%;
+    }
+    section#body__container footer div#up {
+        display: none;
+    }
+    section#body__container footer div#down {
+        height: auto;
+        flex-direction: column;
+    }
+    section#body__container footer div#down div#address__area {
+        width: 100%;
+        padding: 0;
+    }
+    section#body__container footer div#down div#address__area address {
+        font-size: 0.7em;
+        padding: 0%;
+        font-weight: lighter;
+    }
+    section#body__container div#down div#address__area p {
+        font-size: 1em;
+    }
+    section#body__container footer div#down div#social__media {
+        width: 100%;
+        height: auto;
+        padding: 0%;
+    }
+    section#body__container footer div#down div#social__media p {
+        font-size: 1em;
+    }
+    section#body__container footer div#down div#blog__post {
+        width: 100%;
+        padding: 0%;
+    }
+    section#body__container footer div#down div#blog__post p {
+        font-size: 1.2em;
+        text-align: center;
+    }
+    section#body__container footer div#down div#blog__post ul {
+        text-align: center;
+    }
+    section#body__container footer div#down div#blog__post ul li {
+        display: block;
+    }
+    section#body__container footer div#down div#blog__post ul li a {
+        font-size: 1em;
+    }
+}
+
+@media screen and (min-width: 436px) and (max-width: 495px) {
+    section#body__container header {
+        height: auto;
+    }
+    section#body__container header div#co_name {
+        width: 100%;
+    }
+    section#body__container header div#co_name a {
+        font-size: 2.4rem;
+    }
+    section#body__container header nav {
+        display: none;
+    }
+    section#body__container section#banner {
+        height: 565px;
+    }
+    section#body__container section#banner div#banner_child_lft img {
+        height: 565px;
+        border-radius: 0%;
+    }
+    section#body__container section#banner div#banner_child_rgt_child aside {
+        font-size: 1.45rem;
+    }
+    section#body__container section#fac_header div#fac_header {
+        padding-bottom: 8px;
+    }
+    section#body__container section#fac_header div#fac_header hr {
+        width: 33%;
+        height: 2px;
+        margin-bottom: 0px;
+    }
+    section#body__container section#fac_header div#fac_header hr:first-child,
+    section#body__container section#fac_header div#fac_header hr:last-child {
+        width: 45%;
+    }
+    section#body__container section#fac_header div#fac_header h1 {
+        font-size: 1.7rem;
+    }
+    section#body__container section#facilities {
+        height: auto;
+        flex-direction: column;
+    }
+    section#body__container section#facilities div#facilities_child_a,
+    section#body__container section#facilities div#facilities_child_b,
+    section#body__container section#facilities div#facilities_child_c,
+    section#body__container section#facilities div#facilities_child_d {
+        width: 100%;
+        height: auto;
+        margin-top: 75px;
+    }
+    section#body__container section#facilities div#facilities_child_a div#inner,
+    section#body__container section#facilities div#facilities_child_b div#inner,
+    section#body__container section#facilities div#facilities_child_c div#inner,
+    section#body__container section#facilities div#facilities_child_d div#inner {
+        height: auto;
+        width: 70%;
+    }
+    section#body__container section#facilities div#facilities_child_a div#inner div#inner_a,
+    section#body__container section#facilities div#facilities_child_b div#inner div#inner_a,
+    section#body__container section#facilities div#facilities_child_c div#inner div#inner_c,
+    section#body__container section#facilities div#facilities_child_d div#inner div#inner_c {
+        height: 100px;
+    }
+    section#body__container section#facilities div#facilities_child_a div#inner div#inner_b,
+    section#body__container section#facilities div#facilities_child_b div#inner div#inner_b,
+    section#body__container section#facilities div#facilities_child_c div#inner div#inner_d,
+    section#body__container section#facilities div#facilities_child_d div#inner div#inner_d {
+        font-size: 0.85rem;
+        padding-top: 10px;
+    }
+    section#body__container section#facilities div#facilities_child_a div#inner div#inner_a div#inner_inner_a,
+    section#body__container section#facilities div#facilities_child_b div#inner div#inner_a div#inner_inner_a,
+    section#body__container section#facilities div#facilities_child_c div#inner div#inner_c div#inner_inner_c,
+    section#body__container section#facilities div#facilities_child_d div#inner div#inner_c div#inner_inner_c {
+        height: 170px;
+        width: 60%;
+        border: none;
+        border-top: 2px solid rgb(166, 218, 218);
+        transform: translate(65px, -70px);
+    }
+    section#body__container section#reg {
+        height: auto;
+        flex-direction: column;
+    }
+    section#body__container section#reg section#reg_lft {
+        height: auto;
+        width: 100%;
+        text-align: unset;
+        display: block;
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+    section#body__container section#reg section#reg_lft div#reg_lft_child {
+        height: auto;
+    }
+    section#body__container div#reg_lft_child h1 {
+        font-size: 1.8rem;
+    }
+    section#body__container div#reg_lft_child p {
+        font-size: 1.6rem;
+    }
+    section#body__container div#reg_lft_child ul li {
+        font-size: 1.3rem;
+        line-height: 50px;
+    }
+    section#body__container div#reg_lft_child button#enrol_but {
+        font-size: 1.2rem;
+        padding: 5px 3px;
+        border-radius: 10px;
+    }
+    section#body__container div#reg_lft_child button#enrol_but {
+        display: none;
+    }
+    section#body__container section#reg section#reg_rgt {
+        height: auto;
+        width: 100%;
+        padding: 25px 10px 0px 10px;
+        display: block;
+    }
+    section#body__container section#reg_rgt div#why {
+        height: auto;
+        width: 100%;
+    }
+    section#body__container div#why h1 {
+        font-size: 1.5rem;
+    }
+    section#body__container div#why div#descx {
+        font-size: 0.9rem;
+        line-height: 30px;
+    }
+    section#body__container section#staff_header div#staff_header {
+        display: none;
+    }
+    section#body__container section#staff {
+        display: none;
+    }
+    section#body__container section#prop {
+        height: auto;
+    }
+    section#body__container section#prop div#prop div#prop_header {
+        height: auto;
+        padding-bottom: 8px;
+    }
+    section#body__container section#prop div#prop div#prop_header hr {
+        width: 30%;
+        height: 2px;
+        margin-bottom: 0px;
+    }
+    section#body__container section#prop div#prop div#prop_header hr:first-child,
+    section#body__container section#prop div#prop div#prop_header hr:last-child {
+        width: 40%;
+    }
+    section#body__container section#prop div#prop_header h1 {
+        font-size: 1.5rem;
+    }
+    section#body__container section#prop div#prop div#main {
+        flex-wrap: wrap;
+        height: auto;
+        justify-content: space-between;
+    }
+    section#body__container section#prop div#prop div#main>div {
+        height: auto;
+        width: 100%;
+        margin: 25px 10px;
+    }
+    section#body__container section#prop div#prop div#main>div>div {
+        font-size: 0.95rem;
+        padding: 1px;
+    }
+    section#body__container section#prop div#prop div#main>div::before {
+        display: none;
+    }
+    section#body__container footer div#down {
+        height: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    section#body__container footer div#down div#address__area {
+        width: 100%;
+        padding: 0;
+    }
+    section#body__container footer div#down div#address__area address {
+        font-size: 0.7em;
+        padding: 0%;
+        font-weight: lighter;
+    }
+    section#body__container div#down div#address__area p {
+        font-size: 1em;
+    }
+    section#body__container footer div#down div#social__media {
+        width: 100%;
+        height: auto;
+        padding: 0%;
+    }
+    section#body__container footer div#down div#social__media p {
+        font-size: 1em;
+    }
+    section#body__container footer div#down div#blog__post {
+        width: 100%;
+        padding: 0%;
+    }
+    section#body__container footer div#down div#blog__post p {
+        font-size: 1.2em;
+        text-align: center;
+    }
+    section#body__container footer div#down div#blog__post ul {
+        text-align: center;
+    }
+    section#body__container footer div#down div#blog__post ul li {
+        display: block;
+    }
+    section#body__container footer div#down div#blog__post ul li a {
+        font-size: 1.05em;
+        display: block;
+    }
+}
+
+@media screen and (min-width: 496px) and (max-width: 580px) {
+    section#body__container header {
+        height: auto;
+    }
+    section#body__container header div#co_name {
+        width: 100%;
+    }
+    section#body__container header div#co_name a {
+        font-size: 2.5rem;
+    }
+    section#body__container header nav {
+        display: none;
+    }
+    section#body__container section#banner div#banner_child_lft img {
+        border-radius: 80%/100%;
+        border-bottom-left-radius: 0%;
+        border-top-left-radius: 0%;
+    }
+    section#body__container section#banner div#banner_child_rgt_child aside {
+        font-size: 1.45rem;
+    }
+    section#body__container section#fac_header div#fac_header {
+        padding-bottom: 8px;
+    }
+    section#body__container section#fac_header div#fac_header hr {
+        width: 33%;
+        height: 2px;
+        margin-bottom: 0px;
+    }
+    section#body__container section#fac_header div#fac_header hr:first-child,
+    section#body__container section#fac_header div#fac_header hr:last-child {
+        width: 45%;
+    }
+    section#body__container section#fac_header div#fac_header h1 {
+        font-size: 1.7rem;
+    }
+    section#body__container section#facilities {
+        height: auto;
+        flex-direction: column;
+    }
+    section#body__container section#facilities div#facilities_child_a,
+    section#body__container section#facilities div#facilities_child_b,
+    section#body__container section#facilities div#facilities_child_c,
+    section#body__container section#facilities div#facilities_child_d {
+        width: 100%;
+        height: auto;
+        margin-top: 75px;
+    }
+    section#body__container section#facilities div#facilities_child_a div#inner,
+    section#body__container section#facilities div#facilities_child_b div#inner,
+    section#body__container section#facilities div#facilities_child_c div#inner,
+    section#body__container section#facilities div#facilities_child_d div#inner {
+        height: auto;
+        width: 70%;
+    }
+    section#body__container section#facilities div#facilities_child_a div#inner div#inner_a,
+    section#body__container section#facilities div#facilities_child_b div#inner div#inner_a,
+    section#body__container section#facilities div#facilities_child_c div#inner div#inner_c,
+    section#body__container section#facilities div#facilities_child_d div#inner div#inner_c {
+        height: 100px;
+    }
+    section#body__container section#facilities div#facilities_child_a div#inner div#inner_b,
+    section#body__container section#facilities div#facilities_child_b div#inner div#inner_b,
+    section#body__container section#facilities div#facilities_child_c div#inner div#inner_d,
+    section#body__container section#facilities div#facilities_child_d div#inner div#inner_d {
+        font-size: 0.85rem;
+        padding-top: 10px;
+    }
+    section#body__container section#facilities div#facilities_child_a div#inner div#inner_a div#inner_inner_a,
+    section#body__container section#facilities div#facilities_child_b div#inner div#inner_a div#inner_inner_a,
+    section#body__container section#facilities div#facilities_child_c div#inner div#inner_c div#inner_inner_c,
+    section#body__container section#facilities div#facilities_child_d div#inner div#inner_c div#inner_inner_c {
+        height: 170px;
+        width: 60%;
+        border: none;
+        border-top: 2px solid rgb(166, 218, 218);
+        transform: translate(65px, -70px);
+    }
+    section#body__container section#staff_header div#staff_header {
+        height: auto;
+        padding-bottom: 8px;
+    }
+    section#body__container section#staff_header div#staff_header hr {
+        width: 20%;
+        height: 2px;
+        margin-bottom: 0px;
+    }
+    section#body__container section#staff_header div#staff_header hr:first-child,
+    section#body__container section#staff_header div#staff_header hr:last-child {
+        width: 30%;
+    }
+    section#body__container section#staff_header div#staff_header h1 {
+        font-size: 1.5rem;
+    }
+    section#body__container section#staff {
+        height: auto;
+    }
+    section#body__container div#staffings {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+    section#body__container div#staffings>[id*="quarter"] {
+        height: auto;
+        width: 100%;
+    }
+    section#body__container div#staffings div#quarter__a>div#doc__a::after {
+        right: 46.5%;
+    }
+    section#body__container div#staffings div#quarter__b>div#doc__b::after,
+    section#body__container div#staffings div#quarter__d>div#doc__f::after {
+        right: 71.5%;
+        top: 30%;
+    }
+    div#staffings div#quarter__b>div#doc__c::after,
+    div#staffings div#quarter__d>div#doc__g::after {
+        right: 21.5%;
+    }
+    section#body__container section#reg {
+        height: auto;
+        flex-direction: column;
+    }
+    section#body__container section#reg section#reg_lft {
+        height: auto;
+        width: 100%;
+        text-align: unset;
+        display: block;
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+    section#body__container section#reg section#reg_lft div#reg_lft_child {
+        height: auto;
+    }
+    section#body__container div#reg_lft_child h1 {
+        font-size: 1.8rem;
+    }
+    section#body__container div#reg_lft_child p {
+        font-size: 1.6rem;
+    }
+    section#body__container div#reg_lft_child ul li {
+        font-size: 1.3rem;
+        line-height: 50px;
+    }
+    section#body__container div#reg_lft_child button#enrol_but {
+        display: none;
+    }
+    section#body__container section#reg section#reg_rgt {
+        height: auto;
+        width: 100%;
+        padding: 25px 10px 0px 10px;
+        display: block;
+    }
+    section#body__container section#reg_rgt div#why {
+        height: auto;
+        width: 100%;
+    }
+    section#body__container div#why h1 {
+        font-size: 1.5rem;
+    }
+    section#body__container div#why div#descx {
+        font-size: 0.9rem;
+        line-height: 30px;
+    }
+    section#body__container section#prop {
+        height: auto;
+    }
+    section#body__container section#prop div#prop div#prop_header {
+        height: auto;
+        padding-bottom: 8px;
+    }
+    section#body__container section#prop div#prop div#prop_header hr {
+        width: 30%;
+        height: 2px;
+        margin-bottom: 0px;
+    }
+    section#body__container section#prop div#prop div#prop_header hr:first-child,
+    section#body__container section#prop div#prop div#prop_header hr:last-child {
+        width: 40%;
+    }
+    section#body__container section#prop div#prop_header h1 {
+        font-size: 1.5rem;
+    }
+    section#body__container section#prop div#prop div#main {
+        flex-wrap: wrap;
+        height: auto;
+        justify-content: space-between;
+    }
+    section#body__container section#prop div#prop div#main>div {
+        height: auto;
+        width: 100%;
+        margin: 25px 10px;
+    }
+    section#body__container section#prop div#prop div#main>div>div {
+        font-size: 0.95rem;
+        padding: 1px;
+    }
+    section#body__container section#prop div#prop div#main>div::before {
+        display: none;
+    }
+    section#body__container footer div#down {
+        height: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    section#body__container footer div#down div#address__area {
+        width: 100%;
+        padding: 0;
+    }
+    section#body__container footer div#down div#address__area address {
+        font-size: 0.7em;
+        padding: 0%;
+        font-weight: lighter;
+    }
+    section#body__container div#down div#address__area p {
+        font-size: 1em;
+    }
+    section#body__container footer div#down div#social__media {
+        width: 100%;
+        height: auto;
+        padding: 0%;
+    }
+    section#body__container footer div#down div#social__media p {
+        font-size: 1em;
+    }
+    section#body__container footer div#down div#address__area {
+        font-size: 1.2em;
+        line-height: 30px;
+    }
+    section#body__container footer div#down div#blog__post {
+        width: 100%;
+        padding: 0%;
+    }
+    section#body__container footer div#down div#blog__post p {
+        font-size: 1.2em;
+        text-align: center;
+    }
+    section#body__container footer div#down div#blog__post ul {
+        text-align: center;
+    }
+    section#body__container footer div#down div#blog__post ul li {
+        display: block;
+    }
+    section#body__container footer div#down div#blog__post ul li a {
+        font-size: 1.1em;
+        display: block;
+    }
+}
+
+@media screen and (min-width: 681px) and (max-width: 780px) {
+    section#body__container header div#co_name {
+        width: 100%;
+    }
+    section#body__container header div#co_name a {
+        font-size: 2.5rem;
+    }
+    section#body__container header nav {
+        padding: 0;
+        width: 100%;
+    }
+    section#body__container header nav ul {
+        float: right;
+    }
+    section#body__container header nav ul li a {
+        padding: 20px 10px;
+        font-size: 1rem;
+    }
+    section#body__container section#banner div#banner_child_rgt_child aside {
+        font-size: 1.4rem;
+    }
+    section#body__container section#fac_header div#fac_header {
+        padding-bottom: 8px;
+    }
+    section#body__container section#fac_header div#fac_header hr {
+        width: 11%;
+        height: 2px;
+        margin-bottom: 0px;
+    }
+    section#body__container section#fac_header div#fac_header hr:first-child,
+    section#body__container section#fac_header div#fac_header hr:last-child {
+        width: 23%;
+    }
+    section#body__container section#fac_header div#fac_header h1 {
+        font-size: 1.7rem;
+    }
+    section#body__container section#facilities {
+        height: auto;
+    }
+    section#body__container section#facilities div#facilities_child_a,
+    section#body__container section#facilities div#facilities_child_b,
+    section#body__container section#facilities div#facilities_child_c,
+    section#body__container section#facilities div#facilities_child_d {
+        width: 100%;
+        height: auto;
+        margin-top: 75px;
+    }
+    section#body__container section#facilities div#facilities_child_a div#inner,
+    section#body__container section#facilities div#facilities_child_b div#inner,
+    section#body__container section#facilities div#facilities_child_c div#inner,
+    section#body__container section#facilities div#facilities_child_d div#inner {
+        height: auto;
+        width: 70%;
+    }
+    section#body__container section#facilities div#facilities_child_a div#inner div#inner_a,
+    section#body__container section#facilities div#facilities_child_b div#inner div#inner_a,
+    section#body__container section#facilities div#facilities_child_c div#inner div#inner_c,
+    section#body__container section#facilities div#facilities_child_d div#inner div#inner_c {
+        height: 100px;
+    }
+    section#body__container section#facilities div#facilities_child_a div#inner div#inner_b,
+    section#body__container section#facilities div#facilities_child_b div#inner div#inner_b,
+    section#body__container section#facilities div#facilities_child_c div#inner div#inner_d,
+    section#body__container section#facilities div#facilities_child_d div#inner div#inner_d {
+        font-size: 0.85rem;
+        padding-top: 10px;
+    }
+    section#body__container section#facilities div#facilities_child_a div#inner div#inner_a div#inner_inner_a,
+    section#body__container section#facilities div#facilities_child_b div#inner div#inner_a div#inner_inner_a,
+    section#body__container section#facilities div#facilities_child_c div#inner div#inner_c div#inner_inner_c,
+    section#body__container section#facilities div#facilities_child_d div#inner div#inner_c div#inner_inner_c {
+        height: 155px;
+        width: 65%;
+        border: none;
+        border-top: 2px solid rgb(166, 218, 218);
+        transform: translate(45px, -59px);
+    }
+    section#body__container section#reg {
+        height: auto;
+    }
+    section#body__container section#reg section#reg_lft {
+        height: auto;
+        display: block;
+    }
+    section#body__container section#reg section#reg_lft div#reg_lft_child {
+        height: auto;
+    }
+    section#body__container div#reg_lft_child h1 {
+        font-size: 2rem;
+    }
+    section#body__container div#reg_lft_child p {
+        font-size: 1.6rem;
+    }
+    section#body__container div#reg_lft_child ul li {
+        font-size: 1.6rem;
+    }
+    section#body__container div#reg_lft_child button#enrol_but {
+        display: none;
+    }
+    section#body__container section#reg section#reg_rgt {
+        height: auto;
+        display: block;
+    }
+    section#body__container section#reg_rgt div#why {
+        height: auto;
+    }
+    section#body__container div#why h1 {
+        font-size: 1.4rem;
+    }
+    section#body__container div#why div#descx {
+        font-size: 0.9rem;
+        line-height: 20px;
+    }
+    section#body__container section#staff_header {
+        padding-bottom: 8px;
+    }
+    section#body__container section#staff_header div#staff_header hr {
+        width: 10%;
+        height: 2px;
+        margin-bottom: 0px;
+    }
+    section#body__container section#staff_header div#staff_header hr:first-child,
+    section#body__container section#staff_header div#staff_header hr:last-child {
+        width: 20%;
+    }
+    section#body__container section#staff_header div#staff_header h1 {
+        font-size: 1.4rem;
+    }
+    section#body__container section#staff {
+        width: 100%;
+        display: block;
+        height: auto;
+    }
+    section#body__container div#staffings {
+        width: 100%;
+    }
+    section#body__container div#staffings>[id*="quarter"] {
+        height: auto;
+    }
+    section#body__container section#prop {
+        height: auto;
+    }
+    section#body__container section#prop div#prop div#prop_header {
+        height: auto;
+        padding-bottom: 8px;
+    }
+    section#body__container section#prop div#prop div#prop_header hr {
+        width: 13%;
+        height: 2px;
+        margin-bottom: 0px;
+    }
+    section#body__container section#prop div#prop div#prop_header hr:first-child,
+    section#body__container section#prop div#prop div#prop_header hr:last-child {
+        width: 26%;
+    }
+    section#body__container section#prop div#prop_header h1 {
+        font-size: 1.7rem;
+    }
+    section#body__container div#main>div::before {
+        font-size: 3rem;
+        top: 71%;
+        display: none;
+    }
+}
+
+@media screen and (min-width: 781px) and (max-width: 880px) {
+    section#body__container header div#co_name {
+        width: 35%;
+    }
+    section#body__container header div#co_name a {
+        font-size: 2rem;
+    }
+    section#body__container header nav {
+        padding: 0;
+        width: 65%;
+    }
+    section#body__container header nav ul {
+        float: right;
+        padding-right: 10px;
+    }
+    section#body__container header nav ul li a {
+        padding: 10px 10px;
+        font-size: 1rem;
+    }
+    section#body__container section#facilities div#facilities_child_a,
+    section#body__container section#facilities div#facilities_child_b,
+    section#body__container section#facilities div#facilities_child_c,
+    section#body__container section#facilities div#facilities_child_d {
+        width: 100%;
+        height: auto;
+        margin-top: 75px;
+    }
+    section#body__container section#facilities div#facilities_child_a div#inner,
+    section#body__container section#facilities div#facilities_child_b div#inner,
+    section#body__container section#facilities div#facilities_child_c div#inner,
+    section#body__container section#facilities div#facilities_child_d div#inner {
+        height: auto;
+        width: 70%;
+    }
+    section#body__container section#facilities div#facilities_child_a div#inner div#inner_a,
+    section#body__container section#facilities div#facilities_child_b div#inner div#inner_a,
+    section#body__container section#facilities div#facilities_child_c div#inner div#inner_c,
+    section#body__container section#facilities div#facilities_child_d div#inner div#inner_c {
+        height: 100px;
+    }
+    section#body__container section#facilities div#facilities_child_a div#inner div#inner_b,
+    section#body__container section#facilities div#facilities_child_b div#inner div#inner_b,
+    section#body__container section#facilities div#facilities_child_c div#inner div#inner_d,
+    section#body__container section#facilities div#facilities_child_d div#inner div#inner_d {
+        font-size: 0.85rem;
+        padding-top: 10px;
+    }
+    section#body__container section#facilities div#facilities_child_a div#inner div#inner_a div#inner_inner_a,
+    section#body__container section#facilities div#facilities_child_b div#inner div#inner_a div#inner_inner_a,
+    section#body__container section#facilities div#facilities_child_c div#inner div#inner_c div#inner_inner_c,
+    section#body__container section#facilities div#facilities_child_d div#inner div#inner_c div#inner_inner_c {
+        transform: translate(145px, -90px);
+    }
+    section#body__container div#staffings div#quarter__a>div#doc__a::after {
+        right: 46.5%;
+    }
+    section#body__container div#staffings div#quarter__b>div#doc__b::after,
+    section#body__container div#staffings div#quarter__d>div#doc__f::after {
+        right: 71.5%;
+        top: 30%;
+    }
+    div#staffings div#quarter__b>div#doc__c::after,
+    div#staffings div#quarter__d>div#doc__g::after {
+        right: 21.5%;
+    }
+    section#body__container div#reg_lft_child button#enrol_but {
+        display: none;
+    }
+    section#body__container div#main>div::before {
+        top: 71.8%;
+    }
+}
+
+@media screen and (min-width: 881px) and (max-width: 1049px) {
+    section#body__container header div#co_name {
+        width: 35%;
+    }
+    section#body__container header div#co_name a {
+        font-size: 2rem;
+    }
+    section#body__container header nav {
+        padding: 0;
+        width: 65%;
+    }
+    section#body__container header nav ul {
+        float: right;
+        padding-right: 10px;
+    }
+    section#body__container header nav ul li a {
+        padding: 10px 10px;
+        font-size: 1rem;
+    }
+    section#body__container section#facilities div#facilities_child_a,
+    section#body__container section#facilities div#facilities_child_b,
+    section#body__container section#facilities div#facilities_child_c,
+    section#body__container section#facilities div#facilities_child_d {
+        width: 100%;
+        height: auto;
+        margin-top: 75px;
+    }
+    section#body__container section#facilities div#facilities_child_a div#inner,
+    section#body__container section#facilities div#facilities_child_b div#inner,
+    section#body__container section#facilities div#facilities_child_c div#inner,
+    section#body__container section#facilities div#facilities_child_d div#inner {
+        height: auto;
+        width: 70%;
+    }
+    section#body__container section#facilities div#facilities_child_a div#inner div#inner_a,
+    section#body__container section#facilities div#facilities_child_b div#inner div#inner_a,
+    section#body__container section#facilities div#facilities_child_c div#inner div#inner_c,
+    section#body__container section#facilities div#facilities_child_d div#inner div#inner_c {
+        height: 100px;
+    }
+    section#body__container section#facilities div#facilities_child_a div#inner div#inner_b,
+    section#body__container section#facilities div#facilities_child_b div#inner div#inner_b,
+    section#body__container section#facilities div#facilities_child_c div#inner div#inner_d,
+    section#body__container section#facilities div#facilities_child_d div#inner div#inner_d {
+        font-size: 0.85rem;
+        padding-top: 10px;
+    }
+    section#body__container section#facilities div#facilities_child_a div#inner div#inner_a div#inner_inner_a,
+    section#body__container section#facilities div#facilities_child_b div#inner div#inner_a div#inner_inner_a,
+    section#body__container section#facilities div#facilities_child_c div#inner div#inner_c div#inner_inner_c,
+    section#body__container section#facilities div#facilities_child_d div#inner div#inner_c div#inner_inner_c {
+        transform: translate(155px, -90px);
+    }
+    section#body__container div#main>div::before {
+        top: 73%;
+    }
+}

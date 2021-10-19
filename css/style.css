@@ -1,0 +1,803 @@
+* {
+    box-sizing: border-box;
+    height: auto;
+}
+
+html {
+    font-size: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+p,
+i,
+a {
+    padding: 0;
+    margin: 0;
+}
+
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+}
+
+button.accordion {
+    display: none;
+}
+
+.active,
+.accordion:hover {
+    background-color: rgb(150, 25, 146);
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(202, 228, 250);
+}
+
+section#body__container {
+    display: block;
+    position: relative;
+}
+
+section#body__container header {
+    background-color: rgb(202, 228, 250);
+}
+
+section#body__container header div#co_name {
+    font-family: "Turret Road", cursive;
+    text-align: center;
+    padding: 5px 0px;
+    display: block;
+}
+
+section#body__container header div#co_name a {
+    color: rgb(0, 0, 92);
+    font-size: 3rem;
+    text-decoration: none;
+}
+
+section#body__container header nav {
+    font-family: "Noto Sans", sans-serif;
+    padding: 7px 0px;
+}
+
+section#body__container header nav ul {
+    display: block;
+    list-style-type: none;
+}
+
+section#body__container header nav ul li {
+    display: inline-block;
+}
+
+section#body__container header nav ul li a {
+    color: rgb(0, 0, 92);
+    font-size: 1.3rem;
+    text-decoration: none;
+    display: block;
+    padding: 20px 20px;
+}
+
+section#body__container header nav ul li a:hover {
+    background-color: rgb(171, 209, 241);
+}
+
+section#body__container section#banner {
+    height: 550px;
+}
+
+section#body__container section#banner div#banner_child_lft img {
+    height: 550px;
+    border-radius: 80%/100%;
+    border-bottom-left-radius: 0%;
+    border-top-right-radius: 0%;
+    border-top-left-radius: 0%;
+}
+
+section#body__container section#banner div#banner_child_rgt_child aside {
+    color: rgb(0, 0, 92);
+    text-align: center;
+    font-size: 1.8rem;
+    font-family: "Sacramento", cursive;
+}
+
+section#body__container section#fac_header {
+    background-color: rgb(166, 218, 218);
+}
+
+section#body__container section#fac_header div#fac_header hr {
+    background-color: rgb(0, 0, 92);
+    height: 4px;
+    border: 0px solid transparent;
+    border-radius: 30px;
+}
+
+section#body__container section#fac_header div#fac_header h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: "Noto Sans", sans-serif;
+    color: rgb(0, 0, 92);
+}
+
+section#body__container section#facilities {
+    height: 450px;
+    font-family: "Turret Road", cursive;
+}
+
+section#body__container section#facilities div#facilities_child_a,
+section#body__container section#facilities div#facilities_child_b {
+    height: auto;
+}
+
+section#body__container section#facilities div#facilities_child_a div#inner {
+    height: 300px;
+    padding: 3px 3px;
+    border: 2px solid rgb(166, 218, 218);
+    flex-direction: column;
+}
+
+section#body__container section#facilities div#facilities_child_b div#inner {
+    height: 300px;
+    padding: 3px 3px;
+    border: 2px solid rgb(166, 218, 218);
+    flex-direction: column;
+}
+
+section#body__container section#facilities div#facilities_child_a div#inner div#inner_a {
+    border: 2px solid rgb(166, 218, 218);
+    border-bottom: 0px;
+    height: 100px;
+}
+
+section#body__container section#facilities div#facilities_child_b div#inner div#inner_a {
+    border: 2px solid rgb(166, 218, 218);
+    border-bottom: 0px;
+    height: 100px;
+}
+
+section#body__container section#facilities div#facilities_child_a div#inner div#inner_inner_a {
+    background-image: url(https://res.cloudinary.com/isocode/image/upload/v1634656973/educhiever_assests/classroom_yzqwtt.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid rgb(166, 218, 218);
+    transform: translate(220px, -80px);
+}
+
+section#body__container section#facilities div#facilities_child_b div#inner div#inner_inner_a {
+    background-image: url(https://res.cloudinary.com/isocode/image/upload/v1634657094/educhiever_assests/playground_nvrp6o.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid rgb(166, 218, 218);
+    transform: translate(200px, -80px);
+}
+
+section#body__container section#facilities div#facilities_child_a div#inner div#inner_b {
+    text-align: center;
+    border: 2px solid rgb(166, 218, 218);
+    color: rgb(0, 0, 92);
+    border-top: 0px;
+    height: 200px;
+    font-size: 1rem;
+}
+
+section#body__container section#facilities div#facilities_child_b div#inner div#inner_b {
+    text-align: center;
+    color: rgb(0, 0, 92);
+    border: 2px solid rgb(166, 218, 218);
+    border-top: 0px;
+    height: 200px;
+    font-size: 1rem;
+}
+
+
+/* new */
+
+section#body__container section#facilities div#facilities_child_c {
+    height: auto;
+}
+
+section#body__container section#facilities div#facilities_child_d {
+    height: auto;
+}
+
+section#body__container section#facilities div#facilities_child_c div#inner {
+    height: 300px;
+    padding: 3px 3px;
+    border: 2px solid rgb(166, 218, 218);
+    flex-direction: column;
+}
+
+section#body__container section#facilities div#facilities_child_d div#inner {
+    height: 300px;
+    padding: 3px 3px;
+    border: 2px solid rgb(166, 218, 218);
+    flex-direction: column;
+}
+
+section#body__container section#facilities div#facilities_child_c div#inner div#inner_c {
+    border: 2px solid rgb(166, 218, 218);
+    border-bottom: 0px;
+    height: 100px;
+}
+
+section#body__container section#facilities div#facilities_child_d div#inner div#inner_c {
+    border: 2px solid rgb(166, 218, 218);
+    border-bottom: 0px;
+    height: 100px;
+}
+
+section#facilities div#facilities_child_c div#inner div#inner_inner_c {
+    background-image: url(https://res.cloudinary.com/isocode/image/upload/v1634657068/educhiever_assests/lib-1_kdyrrn.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid rgb(166, 218, 218);
+    transform: translate(200px, -80px);
+}
+
+section#body__container section#facilities div#facilities_child_d div#inner div#inner_inner_c {
+    background-image: url(https://res.cloudinary.com/isocode/image/upload/v1634656988/educhiever_assests/dormitory_niplll.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid rgb(166, 218, 218);
+    transform: translate(220px, -80px);
+}
+
+section#body__container section#facilities div#facilities_child_c div#inner div#inner_d {
+    text-align: center;
+    border: 2px solid rgb(166, 218, 218);
+    border-top: 0px;
+    color: rgb(0, 0, 92);
+    height: 200px;
+    font-size: 1rem;
+}
+
+section#body__container section#facilities div#facilities_child_d div#inner div#inner_d {
+    text-align: center;
+    color: rgb(0, 0, 92);
+    border: 2px solid rgb(166, 218, 218);
+    border-top: 0px;
+    height: 200px;
+    font-size: 1rem;
+}
+
+section#body__container section#reg {
+    color: white;
+    height: 600px;
+}
+
+section#body__container section#reg section#reg_lft {
+    height: 600px;
+    text-align: center;
+}
+
+section#body__container section#reg section#reg_lft div#reg_lft_child {
+    height: 500px;
+}
+
+section#body__container div#reg_lft_child h1 {
+    color: black;
+    font-size: 3rem;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+section#body__container div#reg_lft_child p {
+    font-size: 2rem;
+    color: blue;
+}
+
+section#body__container div#reg_lft_child ul {
+    display: block;
+}
+
+section#body__container div#reg_lft_child ul li {
+    list-style-type: none;
+    font-size: 2rem;
+    line-height: 60px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+section#body__container div#reg_lft_child ul li:first-child {
+    color: rgb(0, 0, 92);
+}
+
+section#body__container div#reg_lft_child ul li:nth-child(2) {
+    color: blue;
+}
+
+section#body__container div#reg_lft_child ul li:nth-child(3) {
+    color: rgb(0, 0, 92);
+}
+
+section#body__container div#reg_lft_child ul li:last-child {
+    color: blue;
+}
+
+section#body__container div#reg_lft_child button#enrol_but {
+    color: white;
+    background-color: blue;
+    padding: 20px 20px;
+    font-size: 2rem;
+    outline: 0px solid transparent;
+    border: 0px solid transparent;
+    border-radius: 30px;
+    box-shadow: 4px 4px 6px whitesmoke;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+section#body__container div#reg_lft_child button#enrol_but:active {
+    transform: translate(0.5px, 0.5px);
+}
+
+section#body__container div#reg_lft_child button#enrol_but:hover {
+    color: black;
+    cursor: pointer;
+}
+
+section#body__container section#reg section#reg_rgt {
+    height: 600px;
+}
+
+section#body__container section#reg_rgt div#why {
+    height: 550px;
+}
+
+section#body__container div#why h1 {
+    font-size: 2rem;
+    text-align: center;
+    font-family: "Courier New", Courier, monospace;
+    color: blue;
+}
+
+section#body__container div#why div#descx {
+    color: rgb(0, 0, 92);
+    column-count: 2;
+    column-gap: 50px;
+    font-size: 1rem;
+    line-height: 35px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+section#formHall {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.795);
+    padding: 10px 10px;
+}
+
+div#close {
+    background-color: rgba(223, 207, 207, 0.918);
+    position: absolute;
+    right: 9%;
+    top: 0%;
+    margin: 15px 0px 0px 0px;
+    padding: 0;
+    width: 4%;
+    height: 50px;
+    border-radius: 20px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 4px white;
+    transition: transform 0.5s;
+    transform: rotate(-20deg);
+    font-size: 4em;
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    justify-content: center;
+}
+
+div#close:hover {
+    cursor: pointer;
+    transform: rotate(0deg);
+    color: red;
+}
+
+.cancel {
+    color: red;
+}
+
+div#modalForm {
+    padding: 20px 20px;
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    overflow: auto;
+}
+
+div#modalForm::-webkit-scrollbar {
+    width: 15px;
+}
+
+div#modalForm::-webkit-scrollbar-thumb {
+    background-color: white;
+    width: 40px;
+}
+
+div#modalForm::-webkit-scrollbar-track {
+    background-color: rgb(108, 163, 151);
+}
+
+div#formHeader {
+    background-color: rgb(158, 191, 218);
+    border-radius: 15px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    text-shadow: 2px 2px 2px black;
+    padding: 10px 10px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+div#det article {
+    text-shadow: 1px 2px 2px rgb(106, 129, 53);
+    color: rgb(0, 0, 92);
+    font-size: 3em;
+    font-weight: bold;
+    text-align: left;
+}
+
+div#det h2 {
+    text-transform: capitalize;
+    color: white;
+    font-size: 1.8em;
+}
+
+div#passport {
+    padding: 10px 0px 10px 0px;
+}
+
+div#passport div#pass {
+    background-color: rgb(255, 255, 255);
+    border: 3px solid black;
+    height: 200px;
+}
+
+div#formBody {
+    display: block;
+}
+
+div#formBody section#personal fieldset,
+div#formBody section#contact fieldset,
+div#formBody section#parent fieldset {
+    border-radius: 20px;
+    margin-top: 25px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(158, 191, 218);
+}
+
+div#formBody section#personal fieldset legend,
+div#formBody section#contact fieldset legend,
+div#formBody section#parent fieldset legend {
+    border-radius: 10px;
+    padding: 10px 10px;
+    background-color: rgb(71, 71, 71);
+    color: white;
+    text-align: center;
+    font-size: 2.3vw;
+    text-transform: capitalize;
+}
+
+
+/* the section of staff header */
+
+section#body__container section#staff_header {
+    background-color: rgb(166, 218, 218);
+}
+
+section#body__container section#staff_header div#staff_header hr {
+    background-color: rgb(0, 0, 92);
+    height: 4px;
+    border: 0px solid transparent;
+    border-radius: 30px;
+}
+
+section#body__container section#staff_header div#staff_header h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: "Noto Sans", sans-serif;
+    color: rgb(0, 0, 92);
+}
+
+
+/* the staff body styling */
+
+section#body__container section#staff {
+    height: 600px;
+}
+
+section#body__container div#staffings {
+    flex-direction: column;
+    height: inherit;
+    margin: auto;
+}
+
+section#body__container div#staffings>[id*="quarter"] {
+    height: 150px;
+    position: relative;
+}
+
+section#body__container div#staffings>[id*="quarter"]>div {
+    text-align: center;
+}
+
+section#body__container div#staffings div#quarter__a>div#doc__a {
+    background-color: transparent;
+}
+
+section#body__container div#staffings>[id*="quarter"]>[id*="doc__"] {
+    background-color: transparent;
+}
+
+section#body__container div#staffings>[id*="quarter"]>[id*="doc__"]>p {
+    padding-top: 10px;
+}
+
+section#body__container div#staffings>[id*="quarter"]>[id*="doc__"]:after {
+    position: absolute;
+    border: 10px solid transparent;
+    z-index: 1;
+    content: "";
+    top: 45%;
+}
+
+section#body__container div#staffings div#quarter__a div#doc__a::after {
+    border-color: transparent transparent transparent rgb(202, 228, 250);
+}
+
+section#body__container div#staffings div#quarter__b>[id*="doc__"]::after,
+section#body__container div#staffings div#quarter__d>[id*="doc__"]::after {
+    border-color: transparent transparent transparent rgb(202, 228, 250);
+}
+
+section#body__container div#staffings div#quarter__c>[id*="doc__"]::after {
+    border-color: transparent rgb(202, 228, 250) transparent transparent;
+}
+
+section#body__container div#staffings div#quarter__a>div#doc__a::after {
+    right: 47.5%;
+}
+
+section#body__container div#staffings div#quarter__b>div#doc__b::after,
+section#body__container div#staffings div#quarter__d>div#doc__f::after {
+    right: 72.5%;
+}
+
+div#staffings div#quarter__b>div#doc__c::after,
+div#staffings div#quarter__d>div#doc__g::after {
+    right: 22.5%;
+}
+
+div#staffings div#quarter__c>div#doc__d::after {
+    right: 75%;
+}
+
+div#staffings div#quarter__c>div#doc__e::after {
+    right: 25%;
+}
+
+
+/* Prospectus page */
+
+section#body__container section#prop {
+    height: 600px;
+}
+
+section#body__container div#prop {
+    height: inherit;
+    background-color: rgb(166, 218, 218);
+}
+
+section#body__container div#prop_header {
+    height: 120px;
+}
+
+section#body__container div#prop_header hr {
+    background-color: rgb(0, 0, 92);
+    height: 4px;
+    border: 0px solid transparent;
+    border-radius: 30px;
+}
+
+section#body__container div#prop_header h1 {
+    color: rgb(0, 0, 92);
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: "Noto Sans", sans-serif;
+}
+
+section#body__container div#main {
+    background-color: rgb(202, 228, 250);
+    height: 480px;
+    justify-content: space-around;
+}
+
+section#body__container div#main>div {
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    border: 4px solid rgb(166, 218, 218);
+    border-top: none;
+}
+
+section#body__container div#main>div::before {
+    position: absolute;
+    width: 10%;
+    height: 85px;
+    top: 75.3%;
+    color: rgb(0, 0, 92);
+    display: inline-block;
+    font-weight: 400;
+    font-size: 5rem;
+    font-weight: 900;
+    font-style: normal;
+    font-family: "Font Awesome 5 Free";
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    text-align: center;
+}
+
+section#body__container div#main>div:first-child::before {
+    content: "\f251";
+}
+
+section#body__container div#main>div:nth-child(2)::before {
+    content: "\f11e";
+}
+
+section#body__container div#main>div:last-child::before {
+    content: "\f091";
+}
+
+section#body__container div#main>div:hover::before {
+    cursor: default;
+    transform: rotate(-360deg);
+    transition-delay: 0.2s;
+    transition-timing-function: ease-in-out;
+    transition-duration: 1.2s;
+    transition-property: all;
+}
+
+section#body__container div#main>div>div {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    color: rgb(0, 0, 92);
+}
+
+
+/* the footer styling */
+
+section#body__container footer {
+    color: rgb(0, 0, 92);
+    flex-wrap: wrap;
+    padding: 10px 10px 40px 10px;
+}
+
+section#body__container footer>div {
+    height: auto;
+}
+
+section#body__container footer div#up {
+    height: 400px;
+}
+
+section#body__container footer div#up div#map__area iframe {
+    overflow: hidden;
+    height: 400px;
+}
+
+section#body__container footer div#down {
+    display: flex;
+}
+
+section#body__container footer div#down div#address__area {
+    padding: 10px 10px 30px 10px;
+    text-align: center;
+}
+
+section#body__container div#down div#address__area p {
+    font-size: 1.3em;
+    text-transform: capitalize;
+    font-family: "Noto Sans", sans-serif;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+section#body__container footer div#down div#address__area address {
+    font-family: "Turret Road", cursive;
+    font-size: 1em;
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+
+
+/* footer social media area */
+
+section#body__container footer div#down div#social__media {
+    padding: 10px 10px 15px 10px;
+    text-align: center;
+}
+
+section#body__container footer div#down div#social__media p {
+    font-size: 1.3em;
+    text-transform: capitalize;
+    font-family: "Noto Sans", sans-serif;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+section#body__container footer div#down div#social__media ul {
+    list-style: none;
+    display: block;
+}
+
+section#body__container footer div#down div#social__media ul li {
+    display: inline-block;
+}
+
+section#body__container footer div#down div#social__media ul li a {
+    text-decoration: none;
+}
+
+section#body__container footer div#down div#social__media ul li a i {
+    padding: 5px 5px;
+    color: rgb(0, 0, 92);
+    margin: 10px;
+}
+
+
+/* blog area footer */
+
+section#body__container footer div#down div#blog__post {
+    padding: 10px 0px 0px 0px;
+}
+
+section#body__container footer div#down div#blog__post p {
+    text-transform: capitalize;
+    font-family: "Noto Sans", sans-serif;
+    font-style: italic;
+    font-size: 1.5em;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+section#body__container footer div#down div#blog__post ul {
+    list-style: none;
+    display: block;
+}
+
+section#body__container footer div#down div#blog__post ul li {
+    display: inline-block;
+}
+
+section#body__container footer div#down div#blog__post ul li a {
+    font-size: 1.3em;
+    line-height: 3;
+    color: rgb(0, 0, 92);
+    text-decoration: none;
+}
+
+section#body__container footer div#down div#blog__post ul li a:hover {
+    text-decoration: underline;
+}

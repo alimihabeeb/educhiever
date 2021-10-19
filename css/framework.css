@@ -1,0 +1,62 @@
+[class*="row"] {
+    display: flex;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+[class*="flex"] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+[class*="col_1"] {
+    width: 100%;
+}
+
+[class*="col_2"] {
+    width: 91.67%;
+}
+
+[class*="col_3"] {
+    width: 83.3%;
+}
+
+[class*="col_4"] {
+    width: 75%;
+}
+
+[class*="col_5"] {
+    width: 66.67%;
+}
+
+[class*="col_6"] {
+    width: 58.33%;
+}
+
+[class*="col_7"] {
+    width: 50%;
+}
+
+[class*="col_8"] {
+    width: 41.67%;
+}
+
+[class*="col_9"] {
+    width: 33.33%;
+}
+
+[class*="col_10"] {
+    width: 25%;
+}
+
+[class*="col_11"] {
+    width: 16.67%;
+}
+
+[class*="col_12"] {
+    width: 8.33%;
+}

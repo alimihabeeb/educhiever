@@ -1,0 +1,87 @@
+/* Top form styles */
+
+form#topForm {
+    color: white;
+    font-style: italic;
+    line-height: 48px;
+}
+
+form#topForm input[type="date"]:hover,
+form#topForm input[type="radio"]:hover {
+    cursor: pointer;
+}
+
+form#topForm div#date input[type="date"] {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    text-align: center;
+    width: 50%;
+    font-size: 1.2em;
+    font-weight: bold;
+    border: none;
+    border-bottom: 3px solid white;
+}
+
+
+/* Body form styling */
+
+div#formBody {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div#formBody form label {
+    text-transform: capitalize;
+    color: white;
+    font-size: 1.4em;
+    text-shadow: 2px 2px 2px black;
+}
+
+div#formBody form input[type="text"],
+div#formBody form input[type="tel"],
+div#formBody form input[type="email"],
+div#formBody form input[type="date"],
+select#nationality,
+select#relationship {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    outline: none;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px black;
+    text-align: left;
+    font-size: 1em;
+}
+
+div#formBody form input[type="text"]:hover,
+div#formBody form input[type="tel"]:hover,
+div#formBody form input[type="email"]:hover,
+div#formBody form input[type="date"]:hover,
+select#nationality:hover {
+    background-color: rgb(241, 238, 238);
+}
+
+input::placeholder {
+    color: black;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 8px 0px;
+    margin-top: 25px;
+    display: block;
+    border: 1px solid #ccc;
+    outline: none;
+    border-radius: 15px;
+    font-weight: bold;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    text-align: center;
+    font-size: 2.3em;
+    color: white;
+    text-shadow: 3px 3px 2px black;
+    background-color: rgb(158, 191, 218);
+    text-transform: capitalize;
+}
